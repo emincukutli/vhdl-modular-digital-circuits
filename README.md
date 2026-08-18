@@ -26,14 +26,14 @@ Derivation of 16 present/next states ($S_0$ to $S_{15}$) based on serial binary 
 ### 2. State Transition Diagram
 Complete color-coded state diagram displaying all valid transitions and corresponding 3-bit codeword outputs:
 
-![State Transition Diagram](Dİagram.jpg)
+![State Transition Diagram](Dİagram.png)
 
 ### 3. Hardware Architecture & Logic Schematic
 Schematic implementing 4 D-Flip-Flops ($D_1 - D_4$) with XOR-based modulo-2 adders connected according to the generator polynomials:
 
-![Logic Circuit Schematic](Logic_Curcuit.jpg)
+![Logic Circuit Schematic](Logic_Curcuit.png)
 
 ### 4. Behavioral Simulation Results
 Functional simulation waveform in Xilinx Vivado verifying clock synchronization, state shifts, and expected output bits:
 
-![Simulation Output](Simulation_Output.jpg)
+![Simulation Output](Simulation_Output.png)

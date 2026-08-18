@@ -16,7 +16,24 @@ This project involves the design, finite state machine (FSM) analysis, and FPGA 
 
 ---
 
-## 📊 Key Implementation Stages
-* **State Table & Transition Diagram:** Modeled a 16-state FSM ($S_0$ to $S_{15}$) representing shift register states and state transitions.
-* **Hardware Architecture:** Designed logic circuit utilizing 4 D-Flip-Flops and XOR-based modulo-2 adders.
-* **Testbench Verification:** Completed behavioral simulation on Xilinx Vivado confirming timing constraints and encoded outputs.
+## 📊 Design & Implementation
+
+### 1. State Table
+Derivation of 16 present/next states ($S_0$ to $S_{15}$) based on serial binary input and current register memory:
+
+![State Table](State_Table.png)
+
+### 2. State Transition Diagram
+Complete color-coded state diagram displaying all valid transitions and corresponding 3-bit codeword outputs:
+
+![State Transition Diagram](Dİagram.jpg)
+
+### 3. Hardware Architecture & Logic Schematic
+Schematic implementing 4 D-Flip-Flops ($D_1 - D_4$) with XOR-based modulo-2 adders connected according to the generator polynomials:
+
+![Logic Circuit Schematic](Logic_Curcuit.jpg)
+
+### 4. Behavioral Simulation Results
+Functional simulation waveform in Xilinx Vivado verifying clock synchronization, state shifts, and expected output bits:
+
+![Simulation Output](Simulation_Output.jpg)

@@ -26,7 +26,7 @@ Derivation of 16 present/next states ($S_0$ to $S_{15}$) based on serial binary 
 ### 2. State Transition Diagram
 Complete color-coded state diagram displaying all valid transitions and corresponding 3-bit codeword outputs:
 
-![State Transition Diagram](Dİagram.png)
+![State Transition Diagram](Diagram.png)
 
 ### 3. Hardware Architecture & Logic Schematic
 Schematic implementing 4 D-Flip-Flops ($D_1 - D_4$) with XOR-based modulo-2 adders connected according to the generator polynomials:
